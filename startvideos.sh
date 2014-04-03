@@ -6,7 +6,7 @@ declare -A vids
 SAVEIFS=$IFS
 IFS=$(echo -en "\n\b")
 
-FILES=/home/pi/videos/
+FILES=/mnt/media/usbdrive/
 current=0
 for f in `ls $FILES | grep ".mp4$\|.avi$\|.mkv$\|.mp3$\|.mov$\|.mpg$\|.flv$\|.m4v$"`
 do
