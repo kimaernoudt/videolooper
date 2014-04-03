@@ -14,7 +14,7 @@ cp -a videoloop /etc/init.d/
 cp -a 10-usbdriveadded.rules /etc/udev/rules.d/
 cp -a 10-usbdriveremoved.rules /etc/udev/rules.d/
 cp -a startstartloop.sh /home/pi/
-cp -a startstoploop.sh /home/pi
+cp -a stoploop.sh /home/pi
 
 echo '/mnt/media/usbdrive/ vfat rw,defaults 0 0' >> /etc/fstab
 
