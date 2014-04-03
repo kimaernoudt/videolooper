@@ -1,7 +1,6 @@
 #!/bin/bash
 
-sudo mount -a
-sleep 2
+
 
 declare -A vids
 
