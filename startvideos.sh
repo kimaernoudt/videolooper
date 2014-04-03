@@ -11,7 +11,7 @@ IFS=$(echo -en "\n\b")
 
 FILES=/mnt/media/usbdrive/
 current=0
-for f in `ls $FILES | grep ".mp4$\|.avi$\|.mkv$\|.mp3$\|.mov$\|.mpg$\|.flv$\|.m4v$\.h264$"`
+for f in `ls $FILES | grep ".mp4$\|.avi$\|.mkv$\|.mp3$\|.mov$\|.mpg$\|.flv$\|.m4v$\|.h264$\|"`
 do
         vids[$current]="$f"
         let current+=1
