@@ -1,5 +1,8 @@
 #!/bin/bash
 
+sudo mount -a
+sleep 2
+
 declare -A vids
 
 #Make a newline a delimiter instead of a space
