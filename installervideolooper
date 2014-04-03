@@ -1,9 +1,0 @@
-#!/bin/bash
-
-cd 
-cd /home/pi
-sudo wget https://github.com/kimaernoudt/videolooper.sh
-sudo chmod +x /home/pi/videolooper.sh
-
-sudo apt-get install unclutter
-
