@@ -4,12 +4,11 @@ videolooper
 raspberry pi videolooper script (this can loop multiple extensions and multiple files) audio is standard hdmi.
 
 
-1. clone git https://github.com/StevenHickson/RPiVideoLooper
+1. clone git https://github.com/kimaernoudt/videolooper
 
-2. install
+2. install kimvideolooper installer (cd folder and sudo bash kimvideolooperinstaller.sh)
 
-3. change in startvideos.sh :
-   /mnt/media/usbdrive
+
 
 4. use the udev rules for executing commands on removing and inserting the usbdrive
    in /etc/udev/rules.d/10-usbdriveadded.rules    :KERNEL=="sd?1", ACTION=="add", RUN+="/home/pi/videoloop.sh"
