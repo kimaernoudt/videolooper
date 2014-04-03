@@ -8,6 +8,9 @@ if [ "$(id -u)" != "0" ]; then
     exit 1
 fi
 
+sudo git clone https://github.com/kimaernoudt/videolooper
+cd videolooper
+
 # copy the needed files
 echo "copying the files"
 cp -a startvideos.sh /home/pi/
