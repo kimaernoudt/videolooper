@@ -1,1 +1,1 @@
-KERNEL=="sd?1", ACTION=="add", RUN+="/home/pi/startvideos.sh" 
+KERNEL=="sd?1", ACTION=="add", RUN+="/home/pi/startstartloop.sh" 
